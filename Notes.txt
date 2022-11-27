@@ -1,0 +1,16 @@
+This is a collection of notes from watching the tutorial. 
+
+There is a lot to this k8s thing but I think this a good start
+
+I need to put together the documentation to go with this repo
+   - Only take it public once I am documentation
+   - double check licensing and if we might have to do one ourselves 
+   - Take notes from comments in the file 
+   - Use links for references 
+   - Reference follow and tag Nana
+   - Think about packaging the public publishing as a repository
+    
+When you're done writing all that pretty deployment code, you need to deploy to start pods and stuff
+  - deploy an application's dependencies before the application(it needs them alive)
+  - config -> secret -> mongo -> web-app
+  cmd: kubectl apply -f {yaml file}
